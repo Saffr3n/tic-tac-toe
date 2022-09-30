@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 96px);
+  grid-template-rows: repeat(3, 96px);
+}
+
+.board,
+.cell {
+  border: 2px solid;
+}
+
+.cell {
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
